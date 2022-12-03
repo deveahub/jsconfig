@@ -1,0 +1,25 @@
+{
+  "name": "@rrios-dev/node-config",
+  "version": "0.0.2",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rrios-dev/react-ui-kit"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/rrios-dev"
+  },
+  "license": "MIT",
+  "files": [
+    "babel-node-package-preset.js",
+    "babel-react-package-preset.js",
+    "eslint-node-package-preset.js",
+    "eslint-react-package-preset.js",
+    "jest.react.config.ts"
+  ],
+  "dependencies": {
+    "eslint-config-next": "^12.2.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "7.30.1"
+  }
+}
